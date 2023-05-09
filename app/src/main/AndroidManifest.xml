@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AllReversi_Android"
+        tools:targetApi="31">
+        <activity
+            android:name=".Auth_RestPassword"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Auth_SingIn"
+            android:exported="false">
+
+        </activity>
+
+        <activity android:name=".Auth_SingUp"
+            android:exported="true"
+            >
+
+        </activity>
+        <activity
+            android:name=".list_View"
+            android:exported="true">
+
+
+
+        </activity>
+        <activity
+            android:name=".Alert_Dialog"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".Menus_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ARL_Student_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ARL_Teacher_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ARL_moved_Intent"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Explicit_Intent"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".ActivityLifeCycle"
+            android:exported="true" />
+    </application>
+
+</manifest>

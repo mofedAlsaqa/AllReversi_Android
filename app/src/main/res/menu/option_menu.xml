@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/option_menu">
+        <item
+            android:id="@+id/first_Item"
+            android:icon="@drawable/ic_star_24"
+            android:title="moved_Teacher"
+            android:visible="true"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/second_Item"
+            android:enabled="true"
+            android:icon="@drawable/ic_star_24"
+            android:menuCategory="secondary"
+            android:title="moved Student"
+            android:visible="true"
+            app:showAsAction="withText" />
+    </group>
+
+</menu>

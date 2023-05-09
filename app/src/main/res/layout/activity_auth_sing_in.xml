@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Auth_SingIn">
+
+    <EditText
+        android:id="@+id/singIn_emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Email "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/singIn_passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/singIn_emailEt" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        app:layout_constraintEnd_toEndOf="@id/singIn_passwordEt"
+        app:layout_constraintTop_toBottomOf="@id/singIn_passwordEt"
+        android:textColor="#1A8CE6"
+        android:id="@+id/forgetPSD_Tv"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:enabled="true"
+        android:text="Sing in"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/singIn_passwordEt"
+        app:layout_constraintStart_toStartOf="@id/singIn_passwordEt"
+        app:layout_constraintTop_toBottomOf="@id/singIn_passwordEt"
+        android:id="@+id/singIn_Bt"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AllReversi_Android</string>
+    <string-array name="spinner_city">
+        <item>Gaza</item>
+        <item>Khan younes</item>
+        <item>Rafa7</item>
+        <item>Der Bala7</item>
+    </string-array>
+</resources>
